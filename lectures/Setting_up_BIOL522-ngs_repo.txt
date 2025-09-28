@@ -1,0 +1,67 @@
+Setting up BIOL522-ngs repo
+1. Clone the repository locally
+
+Open a terminal (or Git Bash on Windows) and run:
+
+git clone https://github.com/feseha-btc/BIOL522-NGS.git
+cd BIOL522-NGS
+
+
+This creates a local copy where you can add files.
+
+2. Create the file structure
+
+Decide what structure you want. For example, a typical course repo might look like:
+
+BIOL522-NGS/
+├── data/
+├── lectures/
+├── assignments/
+├── scripts/
+├── notebooks/
+├── README.md
+├── CONTRIBUTING.md
+
+
+You can create this using mkdir:
+
+mkdir data lectures assignments scripts notebooks
+
+3. Create the README.md file
+
+Inside the repository folder, create README.md:
+
+touch README.md
+
+
+Then open it in a text editor (VS Code, nano, or similar) and add your content. Example template:
+
+# BIOL522: Bioinformatics for NGS Data Analysis
+
+This repository contains resources for the BIOL522 course:
+
+- `data/` : Example datasets for assignments and exercises
+- `lectures/` : Lecture slides and materials
+- `assignments/` : Homework and problem sets
+- `scripts/` : Analysis scripts and code examples
+- `notebooks/` : Jupyter notebooks for hands-on exercises
+
+## Contributing
+
+Please see [CONTRIBUTING.md](CONTRIBUTING.md) for contribution guidelines.
+
+## License
+
+This project is licensed under the MIT License.
+
+4. Stage and commit your changes
+git add .
+git commit -m "Add initial file structure and README.md"
+
+5. Push to GitHub
+git push origin main
+
+
+After this, your repository on GitHub will show the folder structure and README.md.
+
+💡 Tip: You can also create the README directly on GitHub when creating a new repo, but the above method is better for adding multiple folders at once.
